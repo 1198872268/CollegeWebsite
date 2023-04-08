@@ -1,0 +1,432 @@
+﻿/*!
+ * Copyright 漏 2018-2019 Singularity Lab.
+ * All rights reserved.
+ *
+ * Author: Hivol Lee
+ * Title: responsive_all.css
+ * Description: styles for all pages.
+ * Update: 2019/12/04
+ */
+
+/* body
+   ========================================================================== */
+
+html, body {
+    max-width: 1980px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* header
+   ========================================================================== */
+
+header .school-logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0 20px 30px;
+}
+
+@media (min-width: 992px) {
+    .user-tools {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .user-tools {
+        margin-top: 48px;
+    }
+}
+
+.user-tools form {
+    position: relative;
+    right: 0;
+}
+
+.user-tools .switch-to-eng, .nav-user-tools .switch-to-eng {
+    position: absolute;
+    right: 205px;
+    font-size: 14px;
+}
+
+.user-tools .search-box {
+    position: absolute;
+    right: 0;
+    width: 200px;
+}
+
+.nav-user-tools .search-box {
+    width: 100%;
+}
+
+.nav-user-tools .input-group {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.nav-user-tools {
+    margin-bottom: 10px;
+}
+
+.info-navigation {
+    color: #fff;
+    background-color: #005CAF;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #005CAF;
+}
+
+/* 璁┾�滈椤碘�濈殑涓嬫媺涓嶅彲瑙�
+.navbar-nav li:first-child ul {
+    display: none !important;
+}
+
+.navbar-nav li:first-child b {
+    display: none !important;
+} */
+
+@media (min-width: 992px) {
+    .nav {
+        width: 100%;
+        font-size: 16px;
+    }
+    .navbar .menu-first {
+        width: 12.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav>li>a {
+        font-size: 18px;
+    }
+    .dropdown-menu>li>a {
+        font-size: 16px;
+    }
+}
+
+/* for navbar of mobile platform */
+
+@media (max-width: 991px) {
+    .info-navigation {
+        background-color: #fff;
+        border-top: solid 3px #005CAF;
+    }
+    .info-navigation .container {
+        width: auto;
+        width: unset;
+    }
+    .navbar-SWUFEinfo {
+        margin: 0 -15px;
+        background-color: #fff;
+    }
+    .navbar-SWUFEinfo .navbar-brand {
+        display: inline-block !important;
+        width: 80%;
+        height: auto;
+    }
+    .navbar-SWUFEinfo .navbar-brand img {
+        width: 100%;
+    }
+    .school-logo-sm {
+        width: 520px;
+    }
+    .navbar-SWUFEinfo .navbar-toggle {
+        margin-top: 34px;
+        background-color: #005CAF;
+    }
+    .navbar-SWUFEinfo .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .nav-user-tools {
+        padding: 10px 15px;
+        margin: 0 -15px;
+        position: relative;
+        border-top: solid 1px #eee;
+        border-bottom: solid 1px #eee;
+    }
+    .nav-user-tools input {
+        border-radius: 4px;
+        border: none;
+        background-color: #eee;
+        height: 44px;
+    }
+    .nav-fill.upper {
+        height: 36px;
+        margin: 0 -15px;
+        border-bottom: solid 1px #eee;
+    }
+    .nav-lang {
+        height: 36px;
+        margin: 0 -15px;
+        position: relative;
+        background-color: #f2f7fb;
+    }
+    .nav-lang ul {
+        position: relative;
+        top: -20px;
+        width: 124.3px;
+        /* 124.2px浼氬鑷磇Phone6s涓婇敊璇崲琛� */
+        padding: 0;
+        margin: 0 auto;
+    }
+    .nav-lang ul li {
+        display: inline-block;
+    }
+    .nav-lang .lang-btn {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        background-color: #005CAF;
+        border-radius: 50%;
+    }
+    .navbar-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #f2f7fb;
+    }
+    .navbar-SWUFEinfo .navbar-collapse, .navbar-SWUFEinfo .navbar-form {
+        border: none;
+    }
+    .navbar-SWUFEinfo .navbar-collapse .nav-item {
+        font-size: 18px;
+        letter-spacing: 2px;
+        border-top: solid 1px #eee;
+    }
+    .dropdown-submenu {
+        letter-spacing: 1px;
+    }
+    .dropdown-submenu li {
+        letter-spacing: 0;
+    }
+    /* .navbar-SWUFEinfo .navbar-collapse .nav-item:last-child {
+        border-bottom: solid 1px #eee;
+    } */
+    .navbar-SWUFEinfo .navbar-nav>li>a {
+        color: #005CAF;
+    }
+    .navbar-SWUFEinfo .navbar-nav>li>a:hover, .navbar-SWUFEinfo .navbar-nav>li>a:focus {
+        color: #005CAF;
+    }
+    .navbar-SWUFEinfo .navbar-nav>.open>a, .navbar-SWUFEinfo .navbar-nav>.open>a:hover, .navbar-SWUFEinfo .navbar-nav>.open>a:focus {
+        color: #fff;
+        background-color: #005CAF;
+        white-space: normal;
+        padding-bottom: 8px;
+    }
+    .navbar-nav .open .dropdown-menu {
+        font-size: 16px;
+        background-color: #005CAF;
+        padding-bottom: 15px;
+        overflow-x: hidden;
+    }
+    .navbar .menu-first a {
+        text-align: left;
+    }
+    .navbar-SWUFEinfo .navbar-nav .open .dropdown-menu>li>a {
+        color: #fafafa;
+        background-color: #005CAF;
+    }
+    .navbar-nav .open .dropdown-menu .open .dropdown-menu {
+        font-size: 14px;
+    }
+    .dropdown-submenu>a:after {
+        float: none;
+        margin: 0 0 0 6px;
+        border: none;
+        display: inline-block;
+        vertical-align: middle;
+        border-top: 4px dashed;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-SWUFEinfo .navbar-toggle {
+        margin-top: 16px;
+    }
+    .navbar-toggle {
+        padding: 8px 9px;
+    }
+}
+
+/* For iPhone4/5/5s */
+
+@media (max-width: 340px) {
+    .navbar-SWUFEinfo .navbar-brand {
+        width: 75%;
+    }
+    .navbar-SWUFEinfo .navbar-toggle {
+        margin-top: 12px;
+    }
+    .navbar-toggle {
+        padding: 7px 8px;
+    }
+}
+
+/* footer
+   ========================================================================== */
+
+footer {
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    padding: 15px 0 10px;
+    background-color: #e9e9e9;
+}
+
+footer .school-slogan {
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.school-slogan img {
+    max-height: 100%;
+}
+
+.school-weixin {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.school-weixin span {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .school-logo img {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .school-logo img {
+        margin: 58.105px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    footer .school-logo, footer .school-slogan {
+        height: 162px;
+    }
+    .school-logo img {
+        margin: 60.5px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer .school-logo, footer .school-slogan {
+        height: 142px;
+    }
+    .school-logo img {
+        margin: 45.5px 0;
+    }
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+    width: 75%;
+    padding-left: 4%;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    footer ul {
+        padding-left: 0;
+    }
+}
+
+footer li {
+    padding: 6px 0;
+    font-size: 14px;
+    border-bottom: 1px dashed #bdbdbd;
+}
+
+footer .footer-bar {
+    margin: 15px auto 10px;
+    padding-top: 15px;
+    color: #616161;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px dashed #bdbdbd;
+}
+
+/* For iPhone4/5/5s */
+
+@media (max-width: 340px) {
+    footer li {
+        font-size: 13px;
+    }
+    footer .footer-bar {
+        font-size: 11px;
+    }
+}
+
+/* notification for IE
+   ========================================================================== */
+
+.notification {
+    display: none;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    padding: 16px 24px;
+    width: 384px;
+    font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+    background: #fff;
+    line-height: 1.5;
+}
+
+.nf-title {
+    padding-left: 48px;
+    background: url("../images/warning-o.png") no-repeat left 0 / 24px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.nf-content {
+    padding-left: 48px;
+    font-size: 14px;
+    color: black;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.nf-button {
+    text-align: right;
+}
+
+/* global style
+   ========================================================================== */
+
+.z-depth-1 {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.z-depth-2 {
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.z-depth-3 {
+    -webkit-box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
