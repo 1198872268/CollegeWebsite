@@ -1220,12 +1220,17 @@ pre code {
         flex: 0 0 100%;
         max-width: 100%
     }
+    
+/* 改了框的比例 */
 
     .row-cols-md-2>* {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%
+        max-width: 25%
     }
+
+
+
 
     .row-cols-md-3>* {
         -ms-flex: 0 0 33.333333%;
@@ -5410,10 +5415,11 @@ input[type=submit].btn-block {
 .card-img,
 .card-img-bottom,
 .card-img-top {
+    width: 217;
+    height: ;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     width: 100%;
-    
 }
 
 .card-img,
