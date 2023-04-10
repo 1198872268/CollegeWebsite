@@ -67,3 +67,23 @@
     background-repeat: no-repeat;
     background-size: 1440px 456px
 }
+
+.mainWrap .left {
+    float: left;
+    width: 150px;
+    height: 100%;
+    padding-right: 30px
+}
+
+.mainWrap .right {
+    float: right;
+    width: 800px;
+    height: 100%
+}
+
+.left .nav {
+    width: 100%;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 48px 0 0 0
+}
