@@ -97,6 +97,7 @@
 	padding: 0px 18px;
 	color: rgb(255, 255, 255);
 	display: block;
+	text-decoration: none;
 }
 
 .nav ul li a:hover {

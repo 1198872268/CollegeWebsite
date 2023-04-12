@@ -13,6 +13,7 @@
 
 .main_conRCb a:hover {
     color: rgb(17, 71, 133);
+    text-decoration: none;
 }
 
 .mycenter {
