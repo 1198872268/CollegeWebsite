@@ -11,6 +11,10 @@
     color: black;
 }
 
+.main_conRCb a:hover {
+    color: rgb(17, 71, 133);
+}
+
 .mycenter {
     margin: 0 auto;
     width: 100%;
@@ -35,7 +39,7 @@
     min-width: 1000px;
     height: 456px;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .banner .background {
@@ -68,15 +72,16 @@
     background-size: 1440px 456px
 }
 
-.row{
+.row {
     width: 1020px;
     margin-top: 40px;
+    transform: translateX(-40px)
 }
+
 .mainWrap .left {
     float: left;
     width: 200px;
     height: 100%;
-    padding-right: 30px
 }
 
 .mainWrap .right {
@@ -90,15 +95,65 @@
     height: 200px;
     border-top: 1px solid #dcdcdc;
     border-bottom: 1px solid #dcdcdc;
-    padding: 48px 0 0 0
+    margin: 0 auto;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.left li{
+.left li {
     margin-bottom: 48px;
     word-break: break-all;
     font-size: 16px;
+}
+
+.left .nav1 li a:hover {
+    color: rgb(17, 71, 133);
+}
+
+.left li a {
+    cursor: pointer;
+}
+
+.left .nav1 li a em{
+    font-size: 17px;
+    font-family: PingFangSC;
+    font-weight: 800;
+    display: inline-block; /* 让em元素变成块级元素 */
+    text-align: center;
+    width: 100%; /* 让em元素占满li元素的宽度 */
+}
+
+.left .nav1 ul{
+    margin-top: 48px;
+}
+
+
+.article-info {
+    padding: 20px 0;
+    background-color: #e4e4e4;
+    text-align: center;
+}
+
+.article-info .article-title {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1976d2;
+    letter-spacing: 1px;
+}
+
+.article-info .article-date {
+    font-size: 14px;
+    color: #404040;
+}
+
+.article-info .article-subtitle {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #707070;
 }
