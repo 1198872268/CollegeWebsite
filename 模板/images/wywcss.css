@@ -230,8 +230,12 @@ img {
     margin-bottom: 20px;
 }
 
+
 .han-symbol.yan {
     background-position-x: -900px;
+}
+.han-symbol.bo {
+    background-position-x: -1075px;
 }
 
 .han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi {
