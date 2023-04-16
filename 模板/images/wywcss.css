@@ -234,23 +234,33 @@ img {
 .han-symbol.yan {
     background-position-x: -900px;
 }
+<<<<<<< HEAD
 .han-symbol.yi{
     background-position-x: -0px;
 }
 .han-symbol.er{
     background-position-x: -90px;
 }
+=======
+>>>>>>> 9bc2285fe7feb0aee9dabe7b90c40a4b547fc7a8
 .han-symbol.bo {
     background-position-x: -1075px;
 }
 
+<<<<<<< HEAD
 .han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi, .han-symbol.yi, .han-symbol.er {
+=======
+.han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi {
+>>>>>>> 9bc2285fe7feb0aee9dabe7b90c40a4b547fc7a8
     width: 90px;
     height: 90px;
     background-position-y: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9bc2285fe7feb0aee9dabe7b90c40a4b547fc7a8
 .han-symbol {
     display: inline-block;
     background-image: url("https://img.alicdn.com/tfs/TB19AHAdQL0gK0jSZFtXXXQCXXa-1260-900.svg");
@@ -296,6 +306,7 @@ img {
     word-break: break-word;
     text-overflow: ellipsis;
     overflow: hidden;
+<<<<<<< HEAD
 }
 
 
@@ -342,3 +353,6 @@ img {
     -ms-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
     border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
 }
+=======
+}
+>>>>>>> 9bc2285fe7feb0aee9dabe7b90c40a4b547fc7a8
