@@ -7159,14 +7159,14 @@ a.close.disabled {
 .carousel-fade .carousel-item-prev.carousel-item-right,
 .carousel-fade .carousel-item.active {
     z-index: 1;
-    opacity: 1
+    opacity: 1;
 }
 
 .carousel-fade .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right {
     z-index: 0;
-    opacity: 0;
-    transition: opacity 0s .6s
+    opacity: 0.1;
+    transition: opacity 0.2s 0.1s
 }
 
 @media (prefers-reduced-motion:reduce) {

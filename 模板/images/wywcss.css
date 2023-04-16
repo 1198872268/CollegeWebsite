@@ -234,15 +234,22 @@ img {
 .han-symbol.yan {
     background-position-x: -900px;
 }
+.han-symbol.yi{
+    background-position-x: -0px;
+}
+.han-symbol.er{
+    background-position-x: -90px;
+}
 .han-symbol.bo {
     background-position-x: -1075px;
 }
 
-.han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi {
+.han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi, .han-symbol.yi, .han-symbol.er {
     width: 90px;
     height: 90px;
     background-position-y: 0;
 }
+
 
 .han-symbol {
     display: inline-block;
@@ -289,4 +296,49 @@ img {
     word-break: break-word;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+
+
+.join .row .join-info .join-item1 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 0 78px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(27,43,79,0.1);
+    -webkit-border-image: -webkit-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -moz-border-image: -moz-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -o-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -ms-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+}
+
+
+
+.join .bg1 {
+    background: #d8dbdd  center 0 no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400px;
+}
+
+
+.join .row .join-info .join-item2 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 0 78px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(27,43,79,0.1);
+    -webkit-border-image: -webkit-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -moz-border-image: -moz-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -o-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -ms-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
 }

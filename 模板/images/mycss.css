@@ -32,7 +32,7 @@
 
 .banner-box {
     position: relative;
-
+    
 }
 
 .banner {
@@ -40,6 +40,7 @@
     min-width: 1000px;
     height: 456px;
     position: relative;
+    
     overflow: hidden;
 }
 
@@ -54,6 +55,7 @@
     -moz-filter: blur(50px);
     -o-filter: blur(50px);
     -ms-filter: blur(50px);
+    background-color: transparent;
     /* filter:blur(50px); */
 }
 
@@ -68,7 +70,7 @@
 
 .banner .images .image {
     height: 456px;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 1440px 456px
 }
@@ -197,43 +199,9 @@
 
 }
 
-.banner {
-    width: 100%;
-    min-width: 1000px;
-    height: 456px;
-    position: relative;
-    overflow: hidden
-}
 
-.banner .background {
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    left: -10%;
-    top: -10%;
-    background-size: 100% 100%;
-    filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
-    -ms-filter: blur(50px);
-    /* filter:blur(50px); */
-}
 
-.banner .images {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 456px;
-    width: 100%;
-    overflow: hidden
-}
 
-.banner .images .image {
-    height: 456px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 1440px 456px
-}
 
 .mainWrap .left {
     float: left;

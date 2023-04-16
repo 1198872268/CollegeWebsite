@@ -380,6 +380,11 @@
 	width: 996px;
 	height: auto;
 }
+.mycontainer {
+	margin: 0px auto;
+	width: 1500px;
+	height: auto;
+}
 
 .content {
 	width: 996px;
