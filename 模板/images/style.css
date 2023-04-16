@@ -74,8 +74,6 @@
 	background: rgb(11, 108, 184);
 	margin: 0px auto;
 	width: 100%;
-	height: 50px;
-	line-height: 50px;
 	position: relative;
 	z-index: 9999;
 }
@@ -87,8 +85,9 @@
 }
 
 .nav li {
+	margin-left: 75px;
 	height: 50px;
-	line-height: 50px;
+	line-height: 500px;
 	font-size: 16px;
 	float: left;
 	position: relative;
@@ -98,6 +97,7 @@
 	padding: 0px 18px;
 	color: rgb(255, 255, 255);
 	display: block;
+	text-decoration: none;
 }
 
 .nav ul li a:hover {
