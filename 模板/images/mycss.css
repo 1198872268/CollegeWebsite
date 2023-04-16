@@ -79,11 +79,6 @@
     transform: translateX(-40px)
 }
 
-.mainWrap .left {
-    float: left;
-    width: 200px;
-    height: 100%;
-}
 
 .mainWrap .right {
     float: right;
@@ -239,13 +234,12 @@
     float: left;
     width: 150px;
     height: 100%;
-    padding-right: 30px
 }
 
 .mainWrap .right {
     float: right;
-    width: 800px;
-    height: 100%
+    width: 850px;
+    height: 100%;
 }
 
 .left .nav {
