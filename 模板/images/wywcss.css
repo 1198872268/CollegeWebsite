@@ -1,6 +1,292 @@
 .back {
     position: relative;
+    background-size:cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(7, 300px); /* 设置为1列，每列占比相等 */
+    grid-gap: 0px; /* 可以设置为你想要的间距值 */
+
+}
+.back:before {
+    content: "aaa";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    background-color: rgba(255,255,255, 0.5);
-    background-image: url(../wyw_images/201_1w.png) ;
+    background-image: url("../myimages/1.jpg");
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .my_btn-primary {
+    color:white;
+    background-color: #76aee9;
+    border-color: #e0e4e8
+}
+
+
+
+.container1{
+    flex-direction: column;
+    display: flex;
+}
+.container1 image{
+    order: 2;
+}
+.container1 text{
+    order: 1;
+
+}
+.container1::before {
+    content: "";
+    position: absolute;
+    top: 250;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(200px);
+  }
+  .banner-box {
+    width: 100%;
+    min-width: 1000px;
+    height: 456px;
+    position: relative;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    height: 456px;
+}
+
+.banner .background {
+    position: relative;
+    width: 120%;
+    height: 120%;
+    left: -10%;
+    top: -10%;
+    z-index: -1;
+    background-size: 100% 100%;
+    filter: blur(50px);
+
+    /* filter:blur(50px); */
+}
+
+.banner .images {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 456px;
+    width: 100%;
+
+}
+
+.banner .images .image {
+    z-index: -1;
+    height: 456px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1440px 456px
+}
+
+
+
+
+
+.join {
+    width: 100%;
+    min-width: 1000px;
+    background: url(img/home-background-3.png) center 0 no-repeat;
+    margin-bottom: 96px;
+    position: relative;
+}
+.join .bg {
+    background: #36383D url(https://img.alicdn.com/tfs/TB1YIOmw8nTBKNjSZPfXXbf1XXa-1920-500.png) center 0 no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+}
+.join .row {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.join .row .top {
+    padding-top: 30px;
+}
+
+.join .row .top .join-title {
+    margin-bottom: 32px;
+}
+
+
+.join .row .top .join-title .ch-title {
+    text-align: center;
+    height: 40px;
+    position: relative;
+}
+.join .row .top .join-title .en-title {
+    opacity: .8;
+    font-size: 12px;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: 4.29px;
+    text-align: center;
+    line-height: 16px;
+    padding-bottom: 3px;
+}
+
+.join .row .top .join-title .ch-title .ch-word {
+    display: inline-block;
+    font-size: 36px;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 2px 12px;
+}
+.join .row .top .join-title .ch-title .ch-line {
+    width: 2px;
+    height: 30px;
+    display: inline-block;
+    background: #D22C1D;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.join .row .top .join-img {
+    width: 1000px;
+    height: 500px;
+}
+.join .row .top .join-img img {
+    height: 500;
+    width: 1000;
+    
+}
+img {
+    border: none;
+}
+.join .row .join-info {
+    height: 450px;
+}
+
+.clear {
+    clear: both;
+}
+.join .row .join-info .join-list {
+    height: 100%;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: rgba(27,43,79,0.1);
+    -webkit-border-image: -webkit-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -moz-border-image: -moz-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -o-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -ms-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+}
+
+.join .row .join-info .join-item {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 25%;
+    padding: 0 78px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(27,43,79,0.1);
+    -webkit-border-image: -webkit-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -moz-border-image: -moz-linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -o-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    -ms-border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+    border-image: linear-gradient(rgba(27,43,79,0.2), rgba(27,43,79,0.02)) 30;
+}
+.join .row .join-info .join-item .btn-row {
+    position: absolute;
+    bottom: 30px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.btn-row .btn {
+    margin-right: 28px;
+    float: left;
+    font-family: Bulter,QingKe,sans-serif,SimSun;
+}
+.btn-row {
+    height: 40px;
+    margin-top: 24px;
+}
+
+.join .row .join-info .join-item .watermark {
+    color: #1B2B4F;
+    letter-spacing: 0;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+
+.han-symbol.yan {
+    background-position-x: -900px;
+}
+.han-symbol.bo {
+    background-position-x: -1075px;
+}
+
+.han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi {
+    width: 90px;
+    height: 90px;
+    background-position-y: 0;
+}
+
+.han-symbol {
+    display: inline-block;
+    background-image: url("https://img.alicdn.com/tfs/TB19AHAdQL0gK0jSZFtXXXQCXXa-1260-900.svg");
+    background-size: 1260px 900px;
+}
+
+.join .row .join-info .join-item .ch-title {
+    text-align: center;
+    font-size: 20px;
+    color: #1B2B4F;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+.font-serif {
+    font-family: Bulter,QingKe,sans-serif,SimSun;
+}
+.join .row .join-info .join-item .en-title {
+    opacity: .6;
+    text-align: center;
+    font-size: 10px;
+    color: #1B2B4F;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: 3px;
+}
+
+
+.join .row .join-info .join-item .brief {
+    left: 43;
+    opacity: .8;
+    font-size: 14px;
+    color: #1B2B4F;
+    line-height: 28px;
+    margin-right: 22px;
+    position: absolute;
+    bottom: 100px;
+    font-family: PingFangSC;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }

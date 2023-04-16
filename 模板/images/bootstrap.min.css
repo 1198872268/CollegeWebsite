@@ -1220,12 +1220,17 @@ pre code {
         flex: 0 0 100%;
         max-width: 100%
     }
+    
+/* 改了框的比例 */
 
     .row-cols-md-2>* {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%
+        max-width: 25%
     }
+
+
+
 
     .row-cols-md-3>* {
         -ms-flex: 0 0 33.333333%;
@@ -5342,7 +5347,9 @@ input[type=submit].btn-block {
 }
 
 .card-title {
-    margin-bottom: .75rem
+    font-size: large;
+    text-align: center;
+    margin-bottom: .05rem
 }
 
 .card-subtitle {
@@ -5408,9 +5415,11 @@ input[type=submit].btn-block {
 .card-img,
 .card-img-bottom,
 .card-img-top {
+    width: 217;
+    height: ;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 100%
+    width: 100%;
 }
 
 .card-img,
@@ -9271,7 +9280,7 @@ button.bg-dark:hover {
 
 .pt-5,
 .py-5 {
-    padding-top: 3rem !important
+    padding-top: 0 !important
 }
 
 .pr-5,
