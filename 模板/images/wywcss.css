@@ -147,7 +147,7 @@
     font-size: 36px;
     color: #FFFFFF;
     height: 40px;
-    padding: 2px 12px;
+    padding: 2px 2px;
 }
 .join .row .top .join-title .ch-title .ch-line {
     width: 2px;
@@ -196,8 +196,8 @@ img {
     position: relative;
     float: left;
     height: 100%;
-    width: 25%;
-    padding: 0 78px;
+    width: 20%;
+    padding: 0 60px;
     border-width: 0 1px 0 0;
     border-style: solid;
     border-color: rgba(27,43,79,0.1);
@@ -240,11 +240,20 @@ img {
 .han-symbol.er{
     background-position-x: -90px;
 }
+.han-symbol.san{
+    background-position-x: -180px;
+}
+.han-symbol.si{
+    background-position-x: -270px;
+}
+.han-symbol.wu{
+    background-position-x: -360px;
+}
 .han-symbol.bo {
     background-position-x: -1075px;
 }
 
-.han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi, .han-symbol.yi, .han-symbol.er {
+.han-symbol.bo, .han-symbol.yan, .han-symbol.xue, .han-symbol.shi, .han-symbol.yi, .han-symbol.er, .han-symbol.san ,.han-symbol.si,.han-symbol.wu{
     width: 90px;
     height: 90px;
     background-position-y: 0;
@@ -280,16 +289,17 @@ img {
 
 
 .join .row .join-info .join-item .brief {
-    left: 43;
+    left: 30;
+    right: 30;
     opacity: .8;
     font-size: 14px;
     color: #1B2B4F;
     line-height: 28px;
-    margin-right: 22px;
+    margin-right: 10px;
     position: absolute;
     bottom: 100px;
     font-family: PingFangSC;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     word-wrap: break-word;
