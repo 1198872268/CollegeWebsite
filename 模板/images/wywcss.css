@@ -112,10 +112,12 @@
     height: 500px;
 }
 .join .row {
+    align-items: center;
     width: 1000px;
-    height: 100%;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .join .row .top {
     padding-top: 30px;
@@ -458,12 +460,6 @@ ol {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-html, body {
-    max-width: 1980px;
-    margin: 0 auto;
-    font-size: 16px;
-    font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .col-md-9 {

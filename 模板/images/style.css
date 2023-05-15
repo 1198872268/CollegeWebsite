@@ -382,6 +382,7 @@
 }
 .mycontainer {
 	margin: 0px auto;
+	max-width: 100%;
 	width: 1500px;
 	height: auto;
 }
@@ -2479,10 +2480,10 @@ a.tab_menu:hover {
 }
 
 .footWrap {
-	margin: 30px auto 0px;
+	margin: 30px;
 	width: 100%;
-	position: relative;
-	z-index: 0;
+	position:relative;
+
 }
 
 .footDiv_one {
